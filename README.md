@@ -1,2 +1,6 @@
-# hello-world
-Just another repository
+# Hi, I'm John.
+
+I'm a web developer, tech enthusiast and occasional writer.
+
+
+HTML5 | CSS3 | Bootstrap | JavaScript | jQuery | PHP | WordPress | SEO
