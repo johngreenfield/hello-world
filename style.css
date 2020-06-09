@@ -1,0 +1,332 @@
+
+      @import url("https://johngreenfield.dev/fonts/EmbossedLabel/stylesheet.css");
+
+      @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+      
+      html,
+      body {
+        font-family: 'Source Code Pro', monospace;
+        text-align: center;
+      }
+      
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .shadow-box {
+        background: rgba(211, 211, 211, 0.6);
+        border-radius: 0.5rem;
+        display: inline-block;
+        width: fit-content;
+        padding: 5px 15px;
+      }
+
+      .black-box {
+        font-family: 'Embossed Label Light', sans-serif;
+        background: #FFF;
+        color: #000;
+      }
+      
+      .intro {
+        top: 0;
+        background: #000 url('img/glasses_code_compressed.jpg') 32% 32%/cover no-repeat;
+        min-height: 55vh;
+        padding-top: 45vh;
+        white-space: pre-line;
+      }
+
+      .intro p {
+        font-size: 1.2em;
+      }
+
+      #navbar a {
+        color: #FFF;
+        text-decoration: none;
+      }
+      
+      #navbar a:hover {
+        color: #DDD;
+      }
+      
+      nav ul {
+        text-align: right;
+        position: fixed;
+        width: 100%;
+        background: #222;
+      }
+      
+      nav ul li {
+        display: inline-block;
+        margin: 55px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+      
+      nav ul li a {
+        color: #FFF;
+        text-decoration: none;
+      }
+      
+      nav ul li a:hover {
+        color: #DDD;
+      }
+
+      .logo {
+        margin-top: 20px;
+        margin-left: 15px;
+        position: absolute;
+        float: left;
+        color: #FFF;
+        font-weight: bolder;
+      }
+
+      #projects {
+        min-height: 95vh;
+      }
+      
+      .work {
+        background: #9D9FA3 url('img/projects-list.jpg') 32% 32%/cover no-repeat;
+        padding-top: 60px;
+      }
+      
+      .work .work-header {
+        display: inline-block;
+        margin: 40px 5px 40px 5px;
+        color: #000;
+        font-weight: bold;
+      }
+
+      .work-header-holder {
+        white-space: pre-line;
+      }
+      
+      .project {
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
+        color: #000;
+        display: inline-block;
+        overflow: hidden;
+        border: 2px solid lightblue;
+        height: 220px;
+        width: 280px;
+        margin: 40px 100px;
+      }
+      
+      .project-pic {
+        width: 100%;
+        height: 180px;
+        border-bottom: 2px solid lightblue;
+      }
+      
+      .project-title {
+        background: #FFF border-box;
+        font-weight: bold;
+        min-height: 36px;
+      }
+
+      .project-title:hover {
+        background: #DDD border-box;
+      }
+
+      .writing {
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
+        background: #9D9FA3 url('img/black_coffee_compressed.jpg') 32% 32%/cover no-repeat;
+        /*margin: 3rem 1rem;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 95vh;
+        padding-top: 60px;
+        padding-bottom: 45px;
+      }
+
+      .writing a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .writing_header_holder {
+        text-align: center;
+      }
+
+      .writing_header {
+        margin-top: .3rem;
+      }
+
+      .writing_slider{
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center
+      }
+
+      .writing_slider li {
+        list-style-type: none;
+      }
+
+      .writing_post{
+        background: #FFF;
+        margin: 3rem 1rem;
+        width: 25%;
+        -webkit-box-shadow: 9px 9px 20px 0px rgba(0,0,0, .4);
+        -moz-box-shadow: 9px 9px 20px 0px rgba(0,0,0, .4);
+        box-shadow: 9px 9px 20px 0px rgba(0,0,0, .4);
+      }
+
+      .writing_post:hover {
+        background: #DDD border-box;
+      }
+
+      .writing_content {
+        padding: .8rem;
+      }
+
+      .writing_topImg{
+        max-width: 100%;
+      }
+
+      .writing_preview {
+        font-size: .95rem;
+        font-weight: 300;
+      }
+
+      .writing_title {
+        margin-top: 0;
+        font-size: 1.4rem;
+      }
+
+      .writing_intro {
+        line-height: 1.5;
+      }
+
+      .writing_info {
+        font-weight: 300;
+      }
+
+      .writing_author {
+        font-size: .9rem;
+      }
+
+      .writing_date {
+        font-size: .85rem;
+      }
+      
+      .contact {
+        background: #000 url('img/background-code1_compressed.jpg') 32% 32%/cover no-repeat;
+        padding-bottom: 160px;
+        min-height: 75vh;
+      }
+      
+      .header {
+        padding: 160px 0 110px;
+      }
+      
+      .contact-details {
+        display: inline-block;
+        font-weight: bold;
+        margin: 0 35px 45px 35px;
+        list-style-type: none;
+        border: 2px solid #000;
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        background: #FFF;
+        color: #000;
+        text-decoration: none;
+      }
+      
+      .contact-details:hover {
+        background: #DDD;
+        color: #000;
+      }
+      
+      footer {
+        padding: 20px;
+        background: #222;
+        color: #FFF;
+        line-height: 40px;
+      }
+      
+      footer a {
+        color: #FFF;
+      }
+
+      @media only screen and (max-width: 1079px) {
+        .black-box {
+          font-family: 'Source Code Pro', monospace;
+          background: #000;
+          color: #FFF !important;
+          display: inline-block;
+          padding: 0px 5px;
+        }
+      }
+
+      @media only screen and (max-width: 1000px) {
+        .logo {
+          display: none;
+        }
+
+        .writing_slider {
+          flex-direction: column;
+        }
+
+        .writing_post {
+          width: 66%;
+          margin:25px auto 0px auto;
+        }
+
+        nav ul {
+          text-align: center;
+        }
+      
+        nav ul li {
+          margin: 20px 15px;
+        }
+      
+        .project {
+          margin: 40px 0;
+        }
+      }
+      
+      @media only screen and (max-width: 367px) {
+        .contact-details {
+          border: 2px solid #000;
+          border-radius: 0;
+          width: 90px;
+          height: 20px;
+          padding: 10px;
+          line-height: normal;
+        }
+
+        nav ul li {
+          margin: 20px 5px;
+        }
+      }
+
+      /* Webkit Browser Scrollbar */
+      /* width */
+      ::-webkit-scrollbar {
+        width: 15px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #222; 
+      }
+      
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #555; 
+
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #444; 
+      }
+      
+          
