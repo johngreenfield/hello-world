@@ -11,3 +11,9 @@ It is a simple four section one page HTML doucment with a script to pull your ar
 
 
 Come and [visit me](https://johngreenfield.dev)
+
+
+Todo:
+- [x] Add site files
+- [ ] Tidy template
+- [ ] Add commenting to stylesheet
